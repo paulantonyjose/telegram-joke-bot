@@ -4,13 +4,17 @@ A bot that displaying jokes based on button clicks and tracks button clicks by a
 How to set up : 
 
 1. Create virtual environment using the command:
+
     virtualenv env
 2. Activate virtual environment using the command:
+
     source env/bin/activate
 2. Install requirements using the command:
+
     pip3 install -r requirements.txt
 3. Create Postgres database and change database settings in telegramjokebot/settings.py file.
 4. Create django and project tables using the command:
+
    python3 manage.py migrate
 
 
