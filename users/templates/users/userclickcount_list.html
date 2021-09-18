@@ -1,0 +1,34 @@
+
+{% extends 'base.html' %}
+
+
+
+
+
+{% block content %}
+
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+        <tr>
+            <th>User</th>
+            <th>Type</th>
+
+            <th>Joke</th>
+            <th>Click Count</th>
+        </thead>
+        <tbody>
+
+        {% for object in object_list %}
+            <tr  >
+                <td>{{ object.user }}</td>
+                <td>{{ object.type }}</td>
+
+                <td>{{ object.joke }}</td>
+                <td>{{ object.count }}</td>
+
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    {% endblock %}
