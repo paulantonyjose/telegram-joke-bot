@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-ASGI_APPLICATION = 'jokebot.routing.application'
+ASGI_APPLICATION = 'telegramjokebot.routing.application'
 
 # Application definition
 
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'jokebot.urls'
+ROOT_URLCONF = 'telegramjokebot.urls'
 
 TEMPLATES = [
     {
@@ -89,7 +89,7 @@ DATABASES = {
 
         'USER': 'admin',
 
-        'PASSWORD': 'XXXXX',
+        'PASSWORD': 'uinguong',
 
         'HOST': '192.168.112.1',
 

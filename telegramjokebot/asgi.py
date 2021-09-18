@@ -5,7 +5,7 @@ import django
 from channels.http import AsgiHandler
 from channels.routing import ProtocolTypeRouter
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'jokebot.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'telegramjokebot.settings')
 django.setup()
 
 application = ProtocolTypeRouter({
