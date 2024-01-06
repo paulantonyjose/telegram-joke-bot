@@ -1,4 +1,4 @@
-# telegramjokebot
+# Telegram Joke Bot
 A bot that displaying jokes based on button clicks and tracks button clicks by a user.
 
 How to set up : 
